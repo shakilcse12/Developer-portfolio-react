@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .bg-top-left {
+      background-image: url('src/assets/developer.png'), url('src/assets/header_bg.png');
+      background-position: top left, bottom right;
+      background-repeat: no-repeat;
+    }
+  }
